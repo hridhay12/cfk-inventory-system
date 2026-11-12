@@ -32,3 +32,33 @@ cfk-inventory-system/
 ├── purchase.py           # Purchase logging and transaction handling
 ├── reports.py            # Analytics and report generation
 └── supplier.py           # Supplier relations module
+
+⚙️Prerequisites
+Python 3.8 or higher installed on your machine.
+
+Git installed (to clone the repository).
+
+💻 Installation & Setup
+Clone the repository:
+
+Bash
+git clone [https://github.com/yourusername/cfk-inventory-system.git](https://github.com/yourusername/cfk-inventory-system.git)
+cd cfk-inventory-system
+Install required dependencies:(If you used any external libraries like pandas, list them in a requirements.txt or install them directly)
+
+Bash
+pip install -r requirements.txt
+Run the application:
+
+Bash
+python gui_updated.py
+Note: The local database file will automatically initialize in the data/ folder upon the first launch.
+
+📖 Usage Guide
+Launch the app using python gui_updated.py.
+
+Navigate to the Suppliers and Products tabs to populate your base catalog.
+
+Use the Purchase module to log incoming stock. The system will automatically update the total stock count.
+
+Navigate to the Reports tab to export current stock levels directly to the exports/ folder.
